@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--<button @click="sayHi">click Me</button>-->
+    <button v-on:click="sayHi">click Me</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    //js数组[] 对象{}
+    var vm=new Vue({
+        el: "#app",
+        data(){
+            return{
+                message: '可口可乐无糖'
+            }
+        },
+        //方法必须定义在Vue的method对象中
+        //其中，event是事件监听。不写也可以。
+        methods: {
+            sayHi(event){
+                alert(`Hello ${this.message}`)
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

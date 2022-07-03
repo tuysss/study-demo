@@ -1,0 +1,51 @@
+
+# yaml语法  vs .properties只能保存键值对
+# 对空格的要求严格
+
+#键值对
+server:
+  port: 8081
+
+#对象
+student:
+  name: clare
+  age: 24
+
+#对象的行内写法
+student2: {name: clare,age:24}
+
+#数组
+pets:
+  - cat
+  - dog
+  - elephant
+
+pets2: [cat,dog,pig]
+
+
+person:
+  name: ${random.uuid}
+  age: 19
+  happy: true
+  birth: 2000/05/13
+  maps: {k1: v1,k2: v2}
+  hello: happy
+  lists: [cat,love,bow]
+  dog:
+    # :hello是占位符
+    name: ${person.hello:hello}旺财
+    age: 3
+
+#springboot的多环境配置：可以选择激活哪一个配置文件
+spring:
+  profiles:
+    active: dev
+    #点击activemq，是ActiveMQProperties类，上有@ConfigurationProperties,
+    #在自动配置的时候被赋上了默认的值，见spring-boot-autoConfiguration的spring.factories
+    #现在重新赋值ConfigurationProperties
+  activemq:
+    broker-url:
+
+
+#debug: true 通过打印日志查看哪些自动配置生效了，哪些没有生效
+debug: true

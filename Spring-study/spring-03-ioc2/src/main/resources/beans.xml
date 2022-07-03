@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Spring配置之别名-->
+    <alias name="user" alias="jkhlxisb"/>
+
+    <!--Spring配置之Bean的配置:
+        id: bean的唯一标志符，相当于类名（对象名）
+        class: 对象所对应的完全限定名-包名+类名
+        name: 取别名，而且可以同时取多个别名。-> 可以取代alias
+    -->
+    <bean id="userT" class="com.tuysss.pojo.UserT" name="t,tt">
+    </bean>
+
+    <!--Spring配置之import:
+        适用于团队开发，将多个配置文件导入合并至一个文件中.
+        最终使用总的配置文件，即：applicationcontext.xml
+     -->
+
+
+
+    <!-- 有参构造方式三：直接通过参数名设置-->
+    <bean id="user" class="com.tuysss.pojo.User">
+        <constructor-arg name="name" value="tuysss"/>
+    </bean>
+
+
+
+    <!--有参构造方式一：参数下标赋值-->
+    <!--
+        <bean id="user" class="com.tuysss.pojo.User">
+            <constructor-arg index="0" value="tuysss"/>
+        </bean>
+    -->
+
+    <!--有参构造方式二：参数类型匹配（不建议使用）-->
+    <!--
+        <bean id="user" class="com.tuysss.pojo.User">
+            <constructor-arg type="java.lang.String" value="tuysss" />
+        </bean>
+    -->
+
+</beans>

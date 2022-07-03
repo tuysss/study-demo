@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    <p>列表书籍：</p>
+    <ul>
+        <li>Java</li>
+        <li>Linux</li>
+        <li>Vue</li>
+    </ul>-->
+    <todo>
+        <!-- : 等价于 v-bind: 双向绑定-->
+        <todo-title slot="todo-title" v-bind:title="title"></todo-title>
+        <todo-items slot="todo-items" v-for="(item,index) in todoItems":item="item"
+                    :index="index" v-on:remove="removeItems(index)" :key="index">
+        </todo-items>
+    </todo>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    Vue.component("todo",{
+        template:'<div>\
+                    <slot name="todo-title"></slot>\
+                    <ul>\
+                        <slot name="todo-items"></slot>\
+                    </ul>\
+                </div>'
+    });
+
+    Vue.component("todo-title",{
+        props: ["title"],
+        template: '<div>{{title}}</div>'
+    })
+
+    Vue.component("todo-items",{
+        props: ['item','index'],
+        template: '<li>{{index}}--{{item}}  <button @click="remove">删除</button></li>',
+        //插槽组件如何接触到vue里的数据(属性)并操作？ ->  难点：在组件中自定义方法
+        methods: {
+            remove: function (index){
+                alert("确认删除？");
+                //Vue提供的自定义事件分发：  this.$emit
+                this.$emit('remove',index);
+            }
+
+        }
+    })
+
+    var vm=new Vue({
+        el: "#app",
+        data: {
+            title: "贵志佑介作品",
+            todoItems: ["玻璃之锤","天使的呢喃","上锁的房间"]
+        },
+        methods: {
+            removeItems: function (index){
+                console.log("删除了 "+this.todoItems[index]+" 成功");
+                //spice(i,n,"c",...,"z"):从坐标i开始，删除b个元素，增添元素c~z
+                //ps 数组坐标从0开始
+                this.todoItems.splice(index,1);
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

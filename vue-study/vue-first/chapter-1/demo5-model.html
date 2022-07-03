@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    输入的文本：<input type="text" v-model="message"> {{message}}<br>
+    输入的文本：<textarea cols="50" rows="10" v-model="message"></textarea>
+    {{message}}
+    <br><br>
+    性别：
+    <input type="radio" name="sex" value="female" v-model="clareGender"> 女
+    <input type="radio" name="sex" value="defemale" v-model="clareGender"> 非女
+    {{clareGender}}
+    <br><br>
+    下拉框：
+    <select name="" id="" v-model="selected">
+        <option>A</option>
+        <option>B</option>
+        <option selected>C</option>
+    </select>
+    选中的是{{selected}}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    //js数组[] 对象{}
+    var vm=new Vue({
+        el: "#app",
+        data: {
+            message: "",
+            clareGender: "",
+            selected: ""
+        }
+    });
+</script>
+</body>
+</html>

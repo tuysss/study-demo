@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--在Spring中创建对象，在Spring中都称作bean
+         一般情况下的定义和初始化： 类型 变量名 = new 类型();
+         id=变量名
+         class=new的对象，即：类型
+         property=对象的属性
+    -->
+    <bean id="hello" class="com.tuysss.pojo.Hello">
+        <!--属性通过pojo类的set方法注入-->
+        <property name="str" value="Spring"/>
+    </bean>
+
+</beans>

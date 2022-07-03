@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:annotation-config/>
+
+    <bean id="cat" class="com.tuysss.pojo.Cat"/>
+
+    <bean id="dog" class="com.tuysss.pojo.Dog"/>
+
+    <!--
+    byName:会在容器上下文寻找，对象所属类中，Setter方法名中 匹配的bean id
+    byType:会在容器上下文寻找，对象所属类中，Setter方法中 匹配的bean class
+    选择依据：当对象类型唯一时，用byType；当容器中存在多个同一类型的对象时，用byName
+    -->
+    <bean id="person" class="com.tuysss.pojo.Person" name="p" autowire="byType">
+        <property name="name" value="孙琪琪"/>
+    </bean>
+
+<!--
+    <bean id="person" class="com.tuysss.pojo.Person" name="p">
+        <property name="name" value="孙琪琪"/>
+        <property name="cat" ref="cat"/>
+        <property name="dog" ref="dog"/>
+    </bean>
+-->
+
+</beans>

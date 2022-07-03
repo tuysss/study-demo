@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- javascript是弱类型语言，编写随意
+    JSON是javascript对象的字符串表示法，本质是一个字符串
+-->
+<script type="text/javascript">
+    //编写一个javascript对象
+    var user={
+        name:"牛劳斯",
+        age:27,
+        sex:"女"
+    };
+    console.log(user);
+
+    //将js对象转换为json对象
+    var json=JSON.stringify(user);
+    console.log(json);
+
+    //将JSON对象转换为js对象
+    var obj=JSON.parse(json);
+    console.log(obj);
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-binf="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="vue">
+    {{info.name}}
+    <div>{{info.address.street}}</div>
+
+    <a v-bind:href="info.url">惦记我</a>
+</div>
+
+
+<!--引入js文件-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:"#vue",
+        //区别data：{}的data是属性，这个data是方法
+        //请求的参数，必须和json字符串一致,可以省略不写，但不可以写错
+        data(){
+            return{
+                info:{
+                    name: null,
+                    address: {
+                        street: null,
+                        city: null,
+                        country: null
+                    },
+                    url: null
+                }
+            }
+        },
+        //钩子函数
+        mounted(){
+            //链式编程 . . .
+            axios.get('../data.json').then(response=>(this.info=response.data));
+        }
+
+    });
+</script>
+
+
+</body>
+</html>
