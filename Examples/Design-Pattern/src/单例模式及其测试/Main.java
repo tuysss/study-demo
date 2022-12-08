@@ -1,4 +1,4 @@
-package com.tuysss.单例模式及其测试;
+package 单例模式及其测试;
 
 import org.junit.Test;
 
