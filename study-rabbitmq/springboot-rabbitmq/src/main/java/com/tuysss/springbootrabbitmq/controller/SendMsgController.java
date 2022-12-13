@@ -59,4 +59,11 @@ public class SendMsgController {
     }
 
 
+    //开始发消息，测试确认 ->模拟 交换机跑不通的情况
+    //另起一类，见ProducerController
+
+
+
+
+
 }
