@@ -2,41 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d04392-ae04-41a8-af2d-ff4041a05fc7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/src/main/java/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/src/main/java/com/tuysss/单例模式及其测试/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/target/classes/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/target/classes/com/tuysss/单例模式及其测试/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/target/classes/com/tuysss/单例模式及其测试/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/DesignPattern/target/classes/com/tuysss/单例模式及其测试/SingletonDoubleLocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/Exercise.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Pattern/src/工厂模式/抽象工厂/buttons/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Pattern/src/单例模式及其测试/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design-Pattern/src/单例模式及其测试/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/StaffManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/StaffManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/StaffManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/StaffManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-03-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-03-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/dataSources/91529b63-6098-4b94-bf86-6733a0e84012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/dataSources/91529b63-6098-4b94-bf86-6733a0e84012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/springboot-05-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study/springboot-05-mybatis/springboot-05-mybatis.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Id3fJP9JEgWGe3pd7rsdnnrmJ7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -87,7 +145,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670497736667</updated>
-      <workItem from="1670497738301" duration="1000" />
+      <workItem from="1670497738301" duration="1043000" />
+      <workItem from="1670579323804" duration="426000" />
+      <workItem from="1670736189923" duration="23000" />
+      <workItem from="1670852286190" duration="163000" />
+      <workItem from="1670852471541" duration="1051000" />
     </task>
     <servers />
   </component>
@@ -104,5 +166,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.32">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>|root||root|localhost|ALTER|G
-|root||root|localhost|ALTER ROUTINE|G
-|root||root|localhost|CREATE|G
-|root||root|localhost|CREATE ROUTINE|G
-|root||root|localhost|CREATE TABLESPACE|G
-|root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||root|localhost|CREATE USER|G
-|root||root|localhost|CREATE VIEW|G
-|root||root|localhost|DELETE|G
-|root||root|localhost|DROP|G
-|root||root|localhost|EVENT|G
-|root||root|localhost|EXECUTE|G
-|root||root|localhost|FILE|G
-|root||root|localhost|INDEX|G
-|root||root|localhost|INSERT|G
-|root||root|localhost|LOCK TABLES|G
-|root||root|localhost|PROCESS|G
-|root||root|localhost|REFERENCES|G
-|root||root|localhost|RELOAD|G
-|root||root|localhost|REPLICATION CLIENT|G
-|root||root|localhost|REPLICATION SLAVE|G
-|root||root|localhost|SELECT|G
-|root||root|localhost|SHOW DATABASES|G
-|root||root|localhost|SHOW VIEW|G
-|root||root|localhost|SHUTDOWN|G
-|root||mysql.session|localhost|SUPER|G
-|root||root|localhost|SUPER|G
-|root||root|localhost|TRIGGER|G
-|root||root|localhost|UPDATE|G
-|root||root|localhost|grant option|G
-performance_schema|schema||mysql.session|localhost|SELECT|G
-sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
-      <ServerVersion>5.7.37</ServerVersion>
-    </root>
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.43">
+    <root id="1"/>
     <collation id="2" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
@@ -4475,9 +4438,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="933" parent="305" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="934" parent="306" name="id">
       <Comment>课程ID</Comment>
@@ -4577,9 +4540,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="950" parent="306" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="951" parent="307" name="id">
       <Comment>课程ID</Comment>
@@ -4605,9 +4568,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>4</Position>
     </column>
     <key id="955" parent="307" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="956" parent="308" name="id">
       <Comment>课程类别ID</Comment>
@@ -4652,9 +4615,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="963" parent="308" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="964" parent="309" name="id">
       <Comment>讲师ID</Comment>
@@ -4721,9 +4684,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="975" parent="309" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="976" parent="310" name="id">
       <Comment>视频ID</Comment>
@@ -4824,9 +4787,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="992" parent="310" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="993" parent="311" name="id">
       <Comment>主键</Comment>
@@ -4884,9 +4847,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="1002" parent="311" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="1003" parent="312" name="id">
       <DataType>int(10)|0s</DataType>
@@ -4911,9 +4874,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="1008" parent="312" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="1009" parent="313" name="id">
       <DataType>int(10)|0s</DataType>
@@ -4925,9 +4888,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>2</Position>
     </column>
     <key id="1011" parent="313" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
     <column id="1012" parent="314" name="id">
       <DataType>int(20)|0s</DataType>
@@ -4943,9 +4906,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
     </column>
     <key id="1015" parent="314" name="PRIMARY">
-      <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
   </database-model>
 </dataSource>
